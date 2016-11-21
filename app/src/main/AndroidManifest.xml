@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vyom.pillapp" >
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Blue" >
+        <activity
+            android:name="pillapp.ViewController.AddActivity"
+            android:label="@string/title_activity_add"
+            android:parentActivityName="pillapp.ViewController.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pillapp.ViewController.MainActivity" />
+        </activity>
+        <activity
+            android:name="pillapp.ViewController.AlertActivity"
+            android:label="@string/title_activity_alert"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="teamqitalach.pillapp.alertactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pillapp.ViewController.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pillapp.ViewController.PillBoxActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="pillapp.ViewController.sms"
+             >
+        </activity>
+
+        <activity
+            android:name="pillapp.ViewController.ScheduleActivity"
+            android:label="@string/title_activity_setting"
+            android:parentActivityName="pillapp.ViewController.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pillapp.ViewController.MainActivity" />
+        </activity>
+        <activity
+            android:name="pillapp.ViewController.EditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="pillapp.ViewController.editlist"
+             >
+        </activity>
+    </application>
+
+</manifest>

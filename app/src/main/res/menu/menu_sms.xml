@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pillapp.ViewController.sms">
+
+    <item android:id="@+id/open"
+        android:icon="@drawable/siren"
+        android:title="Panic Sms"
+        app:showAsAction="ifRoom"  />
+
+</menu>

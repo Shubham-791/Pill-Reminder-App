@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pillapp.ViewController.MainActivity">
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/alarm_add"
+        android:title="Add Alarm"
+        app:showAsAction="always"  />
+    <item android:id="@+id/action_edit"
+        android:icon="@drawable/survival_bag"
+        android:title="Pill Box"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/planner"
+        android:title="Weekly Schedule"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_alert"
+        android:icon="@drawable/user"
+        android:title="Panic List"
+        app:showAsAction="always"  />
+    <item android:id="@+id/open"
+        android:icon="@drawable/siren"
+        android:title="Panic Sms"
+        app:showAsAction="always"  />
+
+</menu>
+

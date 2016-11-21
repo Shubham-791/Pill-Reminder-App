@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/helper1_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Helper1:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffff101d"
+                android:layout_marginTop="8dp"/>
+
+            <EditText android:id="@+id/helper1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:layout_below="@+id/helper1_title"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:gravity="center"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+
+                android:textColor="#ff000000" />
+            <TextView android:id="@+id/helper2_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helper1"
+                android:text="Helper2:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffff101d"
+               />
+
+            <EditText android:id="@+id/helper2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:layout_below="@+id/helper2_title"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:gravity="center"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+
+                android:textColor="#ff000000" />
+            <TextView android:id="@+id/helper3_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helper2"
+                android:text="Helper3:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffff101d"
+                />
+
+            <EditText android:id="@+id/helper3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:layout_below="@+id/helper3_title"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:gravity="center"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+
+                android:textColor="#ff000000" />
+            <TextView android:id="@+id/helper4_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helper3"
+                android:text="Helper4:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffff101d"
+                />
+
+            <EditText android:id="@+id/helper4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:layout_below="@+id/helper4_title"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:gravity="center"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+
+                android:textColor="#ff000000" />
+            <TextView android:id="@+id/helper5_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helper4"
+                android:text="Helper5:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffff101d"
+                />
+
+            <EditText android:id="@+id/helper5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:layout_below="@+id/helper5_title"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:gravity="center"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+
+                android:textColor="#ff000000" />
+            <Button
+                android:id="@+id/button"
+                android:text="SAVE"
+                android:layout_below="@+id/helper5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_weight="10"
+                android:textColor="#ff000000"
+                android:background="@drawable/circle_button"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+
+</RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>

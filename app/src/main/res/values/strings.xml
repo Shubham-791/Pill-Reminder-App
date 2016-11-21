@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Pill Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_today">Today</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_tomorrow">Tomorrow</string>
+    <string name="title_activity_add">Add Alarm!</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_alert">Alert Activity Screen</string>
+    <string name="str_btn_set_alarm">Set Alarm</string>
+    <string name="str_btn_cancel">Cancel</string>
+    <string name="str_tv_message">Opened by Alarm</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="pill_name">Please insert pill name</string>
+
+    <string name="Monday">Mo</string>
+    <string name="Tuesday">Tu</string>
+    <string name="Wednesday">We</string>
+    <string name="Thursday">Th</string>
+    <string name="Friday">Fr</string>
+    <string name="Saturday">Sa</string>
+    <string name="Sunday">Su</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="action_edit">edit</string>
+
+</resources>
